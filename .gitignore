@@ -1,0 +1,12 @@
+# ignore __pycache__ folders
+__pycache__/
+
+# ignore venv, vscode folders
+.venv
+.vscode
+
+# ignore all contents of the migrations folder
+# unignore a .gitkeep file
+/migrations/versions/*
+!/migrations/versions/.gitkeep
+/venv/
