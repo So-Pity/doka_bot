@@ -5,8 +5,4 @@ __pycache__/
 .venv
 .vscode
 
-# ignore all contents of the migrations folder
 # unignore a .gitkeep file
-/migrations/versions/*
-!/migrations/versions/.gitkeep
-/venv/
