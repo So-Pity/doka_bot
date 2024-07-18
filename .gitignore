@@ -4,5 +4,6 @@ __pycache__/
 # ignore venv, vscode folders
 .venv
 .vscode
+/.env
 
 # unignore a .gitkeep file
