@@ -13,10 +13,8 @@ dp = Dispatcher()
 @dp.message()
 async def echo_message(message: types.Message):
     await message.answer(
-        text="Wait a minute..Who...ARE..You?"
+        text="conversation started"
     )
-    if message.text in ['Pipiska', 'Пиписька']:
-        await message.reply(text="Pipiska detected")  #Will be easter egg
 
 async def main():
     logging.basicConfig(level=logging.INFO)
